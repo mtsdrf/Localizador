@@ -1,0 +1,16 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Localizador</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <button ion-button (click)="pegaLocalizacao()">Minha Posição</button>
+  <p>Latitude: {{ lat }}</p>
+  <p>Longitude: {{ lng }}</p>
+  <p>Endereço: {{ address }}</p>
+  <!-- <div #map id="map"></div> -->
+</ion-content>
